@@ -9,12 +9,12 @@
 import UIKit
 
 class FriendModel: NSObject {
-    var userName : String!
-    var userId : String!
-    var photo : String!
+    var userName: String!
+    var userId: String!
+    var photo: String!
     
     //初始化方法
-    init(userName:String,userId:String,photo:String) {
+    init(userName: String,userId: String,photo: String) {
         super.init()
         self.userName = userName;
         self.userId = userId;

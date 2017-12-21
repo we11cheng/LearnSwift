@@ -28,7 +28,7 @@ class StaffViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:FriendTableViewCell = tableView .dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! FriendTableViewCell
+        let cell: FriendTableViewCell = tableView .dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! FriendTableViewCell
         let model = dataArray![indexPath.row] as FriendModel
         cell.userNameLB?.text = model.userName!
         cell.descLB?.text = "大家好我是\(model.userName!)"
@@ -41,8 +41,8 @@ class StaffViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return cell
     }
     
-    var friendTableView : UITableView?
-    var dataArray : Array? = [FriendModel]()
+    var friendTableView: UITableView?
+    var dataArray: Array? = [FriendModel]()
     
     func loadDataLocal(){
         //两种for循环
