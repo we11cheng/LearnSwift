@@ -72,6 +72,8 @@
 		8448593A1FEB6B0800CDC41C /* StaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffViewController.swift; sourceTree = "<group>"; };
 		8448593E1FEB6C2100CDC41C /* WCBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCBaseNavigationController.swift; sourceTree = "<group>"; };
 		844859411FEB6CB700CDC41C /* constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		84CB233E1FEB932D00AAC621 /* LLCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LLCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CB23401FEB933300AAC621 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FAEDF81FEB821E0029800A /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
 		84FAEDFF1FEB835F0029800A /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
 		84FAEE001FEB835F0029800A /* FriendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendTableViewCell.xib; sourceTree = "<group>"; };
@@ -110,6 +112,8 @@
 		2F225DDA3AF4CBC7675ECFAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84CB23401FEB933300AAC621 /* Kingfisher.framework */,
+				84CB233E1FEB932D00AAC621 /* LLCycleScrollView.framework */,
 				38D063EB2253CB8D063C7532 /* Pods_Gwc_swift.framework */,
 				6C40C089BC8A039B3D821415 /* Pods_Gwc_swiftTests.framework */,
 				0E73BCBDC775AAD6F4BC3E1C /* Pods_Gwc_swiftUITests.framework */,
@@ -691,6 +695,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -708,6 +713,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};

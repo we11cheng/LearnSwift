@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4F87037150ABE2C9238B54E8F6E33F36'
-               BlueprintName = 'Kingfisher'
+               BlueprintIdentifier = '44051C6BC790958343DC8C8D83AE04B0'
+               BlueprintName = 'LLCycleScrollView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Kingfisher.framework'>
+               BuildableName = 'LLCycleScrollView.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
