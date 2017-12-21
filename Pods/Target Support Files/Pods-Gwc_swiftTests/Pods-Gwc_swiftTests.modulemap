@@ -1,0 +1,6 @@
+framework module Pods_Gwc_swiftTests {
+  umbrella header "Pods-Gwc_swiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
