@@ -22,6 +22,7 @@
 		8448593B1FEB6B0800CDC41C /* StaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448593A1FEB6B0800CDC41C /* StaffViewController.swift */; };
 		8448593F1FEB6C2100CDC41C /* WCBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448593E1FEB6C2100CDC41C /* WCBaseNavigationController.swift */; };
 		844859421FEB6CB700CDC41C /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844859411FEB6CB700CDC41C /* constant.swift */; };
+		84CB23421FEBB6F100AAC621 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB23411FEBB6F100AAC621 /* ScanViewController.swift */; };
 		84FAEDF91FEB821E0029800A /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAEDF81FEB821E0029800A /* FriendModel.swift */; };
 		84FAEE011FEB835F0029800A /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAEDFF1FEB835F0029800A /* FriendTableViewCell.swift */; };
 		84FAEE021FEB835F0029800A /* FriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FAEE001FEB835F0029800A /* FriendTableViewCell.xib */; };
@@ -74,6 +75,7 @@
 		844859411FEB6CB700CDC41C /* constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
 		84CB233E1FEB932D00AAC621 /* LLCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LLCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CB23401FEB933300AAC621 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CB23411FEBB6F100AAC621 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		84FAEDF81FEB821E0029800A /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
 		84FAEDFF1FEB835F0029800A /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
 		84FAEE001FEB835F0029800A /* FriendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendTableViewCell.xib; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				844859361FEB6AED00CDC41C /* ForcastViewController.swift */,
 				844859381FEB6AFB00CDC41C /* TrainViewController.swift */,
 				8448593A1FEB6B0800CDC41C /* StaffViewController.swift */,
+				84CB23411FEBB6F100AAC621 /* ScanViewController.swift */,
 				84FAEDFE1FEB833D0029800A /* Cell */,
 				84FAEDF71FEB81FD0029800A /* Model */,
 				844859401FEB6C7500CDC41C /* kConstant */,
@@ -528,6 +531,7 @@
 				8448593B1FEB6B0800CDC41C /* StaffViewController.swift in Sources */,
 				844859021FEB676A00CDC41C /* AppDelegate.swift in Sources */,
 				844859391FEB6AFB00CDC41C /* TrainViewController.swift in Sources */,
+				84CB23421FEBB6F100AAC621 /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

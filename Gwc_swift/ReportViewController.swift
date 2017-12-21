@@ -35,7 +35,7 @@ class ReportViewController: UIViewController {
         self.homeBanner.customPageControlStyle = .image
         self.homeBanner.pageControlPosition = .center
         //self.homeBanner.pageControlActiveImage = UIImage.init(named: "lldotActive")
-        //self.homeBanner.pageControlInActiveImage = UIImage.init(named: "lldotInActive")
+//self.homeBanner.pageControlInActiveImage = UIImage.init(named: "lldotInActive")
         self.homeBanner.customPageControlStyle = .system
         self.view.addSubview(self.homeBanner)
     }
@@ -45,11 +45,20 @@ class ReportViewController: UIViewController {
 
         self.navigationItem.title = "报表";
         self.setupBanner()
+        let rightItem = UIBarButtonItem.init(title: "扫描", style: UIBarButtonItemStyle.plain, target: self, action: #selector(scan))
+        self.navigationItem.rightBarButtonItem = rightItem;
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @objc func scan() -> Void {
+        print("scan")
+        let scan = ScanViewController()
+        self.navigationController?.pushViewController(scan, animated: true)
+        
     }
     
 
